@@ -4,7 +4,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/go-macaron/macaron"
+	//"gopkg.in/macaron.v1"
+	//"github.com/go-macaron/macaron"
+	"macaron"
 )
 
 func InitHttpService() {
