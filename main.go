@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"./routers/httpservice"
-	// "github.com/mustang2247/mybisystemweb/routers/httpservice"
+	// "./routers/httpservice"
+	"github.com/mustang2247/mybisystemweb/routers/httpservice"
 )
 
 func main() {
