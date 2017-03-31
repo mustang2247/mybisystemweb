@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>go web</title>
+</head>
+<body>
+    <!--{{if .}}-->
+        <!--score is {{.}}-->
+    <!--{{else}}-->
+        <!--no score-->
+    <!--{{end}}-->
+
+    {{if gt . 90}}
+        A
+    {{else if gt . 80}}
+        B
+    {{else if gt . 70}}
+        C
+    {{end}}
+</body>
+</html>
