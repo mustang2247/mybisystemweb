@@ -4,8 +4,6 @@ import (
 	"log"
 	"net/http"
 
-	//"gopkg.in/macaron.v1"
-	//"github.com/go-macaron/macaron"
 	"macaron"
 )
 
