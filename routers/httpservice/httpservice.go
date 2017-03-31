@@ -3,10 +3,9 @@ package httpservice
 import (
 	"log"
 	"net/http"
-	// "macaron"
 )
 
-func InitHttpService() {
+func InitHttp() {
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		w.Write([]byte("Hello!!!!!"))
